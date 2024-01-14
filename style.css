@@ -25,7 +25,6 @@ nav {
     justify-content: space-between;
     padding: 20px 30px;
     align-items: center;
-    border: 1px solid grey;
 }
 
 .logo-container > a {
@@ -51,6 +50,8 @@ nav {
 
 .navigation-items > a:hover {
     color: white;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .hamburger {
@@ -58,6 +59,46 @@ nav {
     font-size: 30px;
     font-weight: 100;
     color: white;
+}
+
+.foreground {
+    z-index: 10;
+}
+
+.background {
+    display: flex;
+    z-index: -1;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 2vw;
+    align-items: center;
+}
+
+.hero {
+    color: white;
+}
+
+.small-circle {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    opacity: 0.02;
+}
+
+.big-circle {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+    opacity: 0.02;
+}
+
+#closeHam {
+    font-weight: 100;
 }
 
 @media screen and (max-width:768px) {
@@ -86,3 +127,4 @@ nav {
         padding: 10px 10px;
     }
 }
+
