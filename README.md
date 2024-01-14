@@ -1,3 +1,3 @@
 # devvivan.github.io
 
-https://www.vivanpanda.xyz
+https://vivanpanda.xyz
