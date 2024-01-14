@@ -73,10 +73,32 @@ nav {
     padding: 0;
     gap: 2vw;
     align-items: center;
+    position: absolute;
+    top: 10vh;
+    right: 4vw;
 }
 
-.hero {
+.content {
+    padding: 8vw;
+}
+
+.hero-text {
     color: white;
+    z-index: 1;
+    margin: auto;
+    width: 50%;
+    bottom: 40vh;
+    position: absolute;
+}
+
+.hero-intro {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.name {
+    font-size: 6rem;
+    font-weight: 400;
 }
 
 .small-circle {
@@ -85,7 +107,8 @@ nav {
     border-radius: 50%;
     position: relative;
     background-color: white;
-    opacity: 0.02;
+    opacity: 0.01;
+    filter: blur(4px);
 }
 
 .big-circle {
@@ -95,6 +118,7 @@ nav {
     position: relative;
     background-color: white;
     opacity: 0.02;
+    filter: blur(5px);
 }
 
 #closeHam {
@@ -106,9 +130,11 @@ nav {
       display: flex;
       cursor: pointer;
     }
+
     .hamburger #closeHam {
       display: none;
     }
+
     .navigation-items {
       display: none;
       flex-direction: column;
@@ -124,7 +150,26 @@ nav {
     }
 
     nav {
-        padding: 10px 10px;
+        padding: 10px 20px;
+    }
+
+    .hero-intro {
+        font-size: 2rem;
+    }
+
+    .name {
+        font-size: 5rem;
+    }
+
+    .background {
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        gap: 2vw;
+        align-items: center;
+        position: absolute;
+        top: 30vh;
+        left: 1vw;
     }
 }
 
