@@ -1,4 +1,3 @@
-
 let openHam = document.querySelector('#openHam');
 let closeHam = document.querySelector('#closeHam');
 let navigationItems = document.querySelector('#navigation-items');
@@ -33,4 +32,3 @@ window.addEventListener("mousemove",(e) => {
     bigCircle.style.top = 1/64 * e.y+"px";
     background.appendChild(bigCircle)
 })
-

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vivan Panda</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
 </head>
 <body>
     <div class="foreground">
@@ -42,7 +43,7 @@
                 <p class="about-text">Today, I am quite proficient in frontend web development, where I bring my ideas to life through my code.</p>
             </div>
             <div class="three-d">
-
+                <model-viewer src="model/saturn.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="0.88" shadow-softness="0.64" exposure="0.52"> </model-viewer>
             </div>
         </div>
     </div>

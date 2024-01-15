@@ -1,0 +1,1 @@
+<model-viewer src="saturn.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="0.88" shadow-softness="0.64" exposure="0.52"> </model-viewer>

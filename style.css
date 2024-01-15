@@ -10,7 +10,7 @@ body {
 }
   
 .navigation-header {
-    background-color: rgb(73, 51, 153);
+    background-color: white;
     padding: 0 15px;
     height: 60px;
     display: flex;
@@ -154,8 +154,8 @@ nav {
 }
 
 .about-text {
-    max-width: 40vw;
-    font-size: 1.3rem;
+    max-width: clamp(400px, 40vw, 80vw);
+    font-size: clamp(0.8rem, 1.3rem, 1.5rem);
     font-weight: 300;
 }
 
@@ -166,7 +166,12 @@ nav {
 .three-d {
     width: 30vw;
     height: 70vh;
-    border: 2px solid red;
+}
+
+model-viewer {
+    width: 100%;
+    height: 100%;
+    outline: none;
 }
 
 @media screen and (max-width:768px) {
@@ -218,12 +223,6 @@ nav {
 
     .about-header {
         font-size: 3rem;
-    }
-    
-    .about-text {
-        max-width: 300px;
-        font-size: 1.1rem;
-        font-weight: 300;
     }
     
     .three-d {
