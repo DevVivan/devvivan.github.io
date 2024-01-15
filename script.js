@@ -1,3 +1,4 @@
+
 let openHam = document.querySelector('#openHam');
 let closeHam = document.querySelector('#closeHam');
 let navigationItems = document.querySelector('#navigation-items');
