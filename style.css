@@ -130,8 +130,39 @@ nav {
     opacity: 0.3;
 }
 
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 3vh;
+}
+
+.about-container {
+    display: flex;
+    top: 130vh;
+    position: absolute;
+    gap: 10vw;
+}
+
+.about-header {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.about-text {
+    max-width: 40vw;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
 #closeHam {
     font-weight: 100;
+}
+
+.three-d {
+    width: 30vw;
+    height: 70vh;
+    border: 2px solid red;
 }
 
 @media screen and (max-width:768px) {
