@@ -3,6 +3,7 @@ let closeHam = document.querySelector('#closeHam');
 let navigationItems = document.querySelector('#navigation-items');
 let background = document.querySelector(".background")
 let body = document.querySelector("body")
+let loader = document.querySelector(".loader ")
 
 const hamburgerEvent = (navigation, close, open) => {
     navigationItems.style.display = navigation;
@@ -32,3 +33,11 @@ window.addEventListener("mousemove",(e) => {
     bigCircle.style.top = 1/64 * e.y+"px";
     background.appendChild(bigCircle)
 })
+
+
+function vanish() {
+    loader.classList.add("disappear")
+}
+
+
+window.addEventListener('load', vanish);
