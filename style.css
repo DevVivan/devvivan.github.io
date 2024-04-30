@@ -191,12 +191,6 @@ nav {
     height: 60vh;
 }
 
-model-viewer {
-    width: 100%;
-    height: 100%;
-    outline: none;
-}
-
 @media screen and (max-width:768px) {
     .hamburger {
       display: flex;
@@ -253,3 +247,10 @@ model-viewer {
     }
 }
 
+.hero-hr-2 {
+    position: absolute;
+    top: 210vh;
+    width: 80vw;
+    border: 0.5px solid white;
+    opacity: 0.3;
+}
