@@ -4,6 +4,10 @@ html {
   font-family: sans-serif;
 }
 
+::selection {
+  background: lightgray;
+}
+
 body {
   margin: 0;
 }
