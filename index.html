@@ -1,56 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vivan Panda</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image" href="/images/favicon.ico">
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
-</head>
-<body>
-    <div class="foreground">
-        <header class="navbar">
-            <nav>
-                <div class="logo-container">
-                    <a href="./index.html">VP</a>
-                </div>
-                <div class="navigation-items" id="navigation-items">
-                    <a href="./index.html">Home</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="">Blog</a>
-                    <a href="">Contact</a>
-                </div>
-                <div class="hamburger">
-                    <span id="openHam">&#9776;</span>
-                    <span id="closeHam">&#x2716;</span>
-                </div>
-            </nav>
-        </header>
-    </div>
-    <div class="content">
-        <div class="background"></div>
-        <div class="hero-text">
-            <h2 class="hero-intro">Hey I'm</h2>
-            <h1 class="name">Vivan Panda</h1>
-        </div>
-        <hr class="hero-hr">
-        <div class="about-container" id="aboutContainer">
-            <div class="about-text-container">
-                <h1 class="about-header">About Me</h1>
-                <br>
-                <p class="about-text">Hey there! My name is Vivan. I'm a high-school student, web developer, avid reader, keyboardist, roboticist, electronics enthusiast and much more. </p>
-                <p class="about-text">I have always been fascinated by the world of technology. Whether it's been printing my first “Hello World” program, or tinkering around with the Terminal, the thrill behind building something from scratch has continued to drive my passion for technology. </p>
-                <p class="about-text">Today, I am quite proficient in frontend web development, where I bring my ideas to life through my code. I also enjoy producing hobby robots in my free time and creating projects that can help better the community around me.</p>
-            </div>
-            <div class="about-img">
-            </div>
-        </div>
-        <hr class="hero-hr-2">
-        <div class="contact-container">
-            
-        </div>
-    </div>
-</body>
-<script src="script.js"></script>
-</html>
+<!DOCTYPE html><html data-wf-page="664371340fc36def9bad21a0" data-wf-site="664371330fc36def9bad212e" lang="en"><head><meta charset="utf-8"/><title>Bryn Taylor · Freelance digital product designer</title><meta content="Freelance senior product designer with 8 years of experience. I design websites, mobile apps and digital products for leading companies. Available for hire 💥" name="description"/><meta content="Bryn Taylor · Freelance digital product designer" property="og:title"/><meta content="Freelance senior product designer with 8 years of experience. I design websites, mobile apps and digital products for leading companies. Available for hire 💥" property="og:description"/><meta content="images/bryn-taylor-portfolio-opengraph-image.jpg" property="og:image"/><meta content="Bryn Taylor · Freelance digital product designer" property="twitter:title"/><meta content="Freelance senior product designer with 8 years of experience. I design websites, mobile apps and digital products for leading companies. Available for hire 💥" property="twitter:description"/><meta content="images/bryn-taylor-portfolio-opengraph-image.jpg" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="css/webflow-style.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="images/favicon.png" rel="shortcut icon" type="image/x-icon"/><link href="images/app-icon.png" rel="apple-touch-icon"/><!-- Text highlight colour -->
+<style>
+::selection {
+	background: #F2FCE2;
+}
+</style>
+
+<!-- Remove iOS input shadow -->
+<style>
+.subscribe-form-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+</style></head><body><div data-w-id="45ffddbd-4610-533d-d6aa-f6c7eb63a595" style="display:flex" class="div-block preloader"><h1 class="heading-3">Welcome</h1></div><div class="page-wrapper"><div class="global-styles w-embed"><style>
+
+/* Snippet gets rid of top margin on first element in any rich text*/
+.w-richtext>:first-child {
+	margin-top: 0;
+}
+
+/* Snippet gets rid of bottom margin on last element in any rich text*/
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0;
+}
+
+/* Snippet makes all link elements listed below to inherit color from their parent */
+a, 
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link
+{
+	color: inherit;
+}
+
+/* Snippet prevents all click and hover interaction with an element */
+.clickable-off {
+	pointer-events: none;
+}
+
+/* Snippet enables all click and hover interaction with an element */
+.clickable-on{
+  pointer-events: auto;
+}
+
+/* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+/*Hide focus outline for main content element*/
+main:focus-visible {
+	outline: -webkit-focus-ring-color auto 0px;
+}
+
+/* Make sure containers never lose their center alignment*/
+.container-medium, .container-small, .container-large {
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+
+/*Reset selects, buttons, and links styles*/
+.w-input, .w-select, a {
+	color: inherit;
+	text-decoration: inherit;
+	font-size: inherit;
+}
+
+/*Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/*Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/*Apply "..." after 1 lines of text */
+.text-style-1line {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+/*Remove blue focus on section anchor links */
+.section:focus {
+	outline: none;
+}
+
+</style></div><div data-animation="over-left" class="section-nav is-multi-colored w-nav" data-easing2="ease" data-easing="ease" data-collapse="small" data-w-id="69118560-d0bc-15fc-bbf8-b8fe5f6535b5" role="banner" data-duration="400" data-doc-height="1"><div class="page-padding"><div class="nav-container"><a id="skip-link" href="#" class="button small skip-to-main w-button">Skip to content</a><a href="/" role="navigation" aria-label="Logo" aria-current="page" class="logo w-nav-brand w--current"><h1 class="heading-2">VP</h1></a><nav role="navigation" class="nav-menu w-nav-menu"><div class="logo-wrapper mobile-menu"><a href="https://www.bryntaylor.co.uk/#home" role="navigation" aria-label="Logo" class="logo w-nav-brand"><div class="logo-image w-embed"><svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" width="36" height="38" fill="none">
+  <path fill="currentColor" d="M32.3 8.2c2.7 2.7 3.6 5 3.7 7.1.2 2.5-.7 5.2-2.6 7.2a9.3 9.3 0 01-5.6 2.5 10 10 0 01-2.5 9.8c-2 2-4.7 3-7.4 3s-5.4-1-8.5-4.1L0 24.3 24 0l8.3 8.2zm-18.8 21c1.6 1.7 2.9 2.2 4.2 2 1 0 2.2-.4 3-1.2 1-1 1.4-2 1.4-3.1 0-1.2-.4-2.5-2-4.2L15.5 18 9 24.6l4.5 4.7zm6-15.3l3.3 3.3c1.4 1.4 2.4 1.9 3.4 1.8.9 0 1.8-.5 2.4-1 .7-.8 1-1.6 1-2.5 0-1-.3-2-1.7-3.4l-3.2-3.3-5.2 5.1z"/>
+</svg></div></a></div><div class="navigation-grid"><a href="#work" class="navigation-link w-inline-block"><h3 class="text-size-regular text-weight-medium">Projects</h3></a><a href="#about" class="navigation-link w-inline-block"><h3 class="text-size-regular text-weight-medium">About</h3></a><a href="#contact" class="navigation-link w-inline-block"><h3 class="text-size-regular text-weight-medium">Contact</h3></a></div></nav><div class="menu-button w-nav-button"><div class="menu-icon"><div class="menu-icon-line-top"></div><div class="menu-icon-line-middle"><div class="menu-icon-line-middle-inner"></div></div><div class="menu-icon-line-bottom"></div></div></div></div></div></div><main id="main" class="main-wrapper"><header id="home" class="section-header is-multi-colored"><div class="page-padding"><div class="container-large"><div class="layout-12-column"><h2 id="w-node-e324cd9d-69b3-fc01-8202-5324ee7af1dd-9bad21a0" class="heading">Hey, I&#x27;m</h2><h1 id="w-node-_5192e6b0-dac1-5111-6000-23ab11e14e02-9bad21a0" class="heading-xlarge">Vivan Panda<br/></h1></div></div></div></header><section class="section with-divider"><div class="page-padding"><div class="container-large"><div class="layout-12-column"><div id="w-node-a95b2831-2b6f-c134-dcd4-e94e0cada7a8-9bad21a0" class="content-wrapper"><p class="text-size-large">Highschooler studying in Dubai. Passion for robotics, engineering, physics, mathematics.</p></div></div></div></div><a href="#about" rel="noopener" class="button w-button">ABOUT ME →</a><div data-w-id="d968be93-20ad-342a-2a20-827d0d8a6ff7" data-animation-type="spline" data-spline-url="https://prod.spline.design/IC03ZRgjMeSJNbkR/scene.splinecode"><canvas></canvas></div></section><section id="about" class="section with-divider"><div class="page-padding"><div class="container-large"><div class="layout-12-column"><div class="section-title"><h2 class="heading-7">About</h2></div><div class="content-wrapper"><p class="text-size-large margin-0">I’m Vivan — a highschooler that enjoys taming robots and using them to influence the world around me. </p></div><div class="content-wrapper"><p class="paragraph">I have always been fascinated by the world of technology and engineering. Whether it’s been printing my first “Hello World” program, or tinkering around with the Terminal, the thrill behind building something from scratch has continued to drive my passion for technology. Today, I am quite proficient in frontend web development too, where I bring my ideas to life through my code.</p><p class="margin-0">I am also a skilled roboticist, having completed multiple projects using ordinary Arduinos and spare electronics equipment to combat the problems I encounter everyday. Alongside this, I am comfortable with creating robotics simulations using softwares such as PyBullet, MuJoCo, Webots and ROS.</p></div></div></div></div></section><section id="work" class="section with-divider"><div class="page-padding"><div class="container-large"><div class="section-title"><div class="margin-bottom margin-huge"><h2>Projects</h2></div></div><div class="work-collection_wrapper w-dyn-list"><div role="list" class="work-collection_list is-featured-project w-dyn-items"><div id="w-node-ea708192-d447-9c2f-21f5-950cf0f7d990-9bad21a0" role="listitem" class="work-collection-item w-dyn-item"><a href="https://github.com/DevVivan/robotic-arm" target="_blank" class="project-thumbnail-link w-inline-block"><div class="project-thumbnail-image-wrapper"><img class="image-3" src="images/screenshot-202024-05-20-20at-209.32.40-e2-80-afam.png" width="1200" alt="" sizes="(max-width: 479px) 100vw, (max-width: 767px) 75vw, 81vw" loading="lazy" srcset="images/screenshot-202024-05-20-20at-209.32.40-e2-80-afam-p-500.png 500w, images/screenshot-202024-05-20-20at-209.32.40-e2-80-afam-p-800.png 800w, images/screenshot-202024-05-20-20at-209.32.40-e2-80-afam-p-1080.png 1080w, images/screenshot-202024-05-20-20at-209.32.40-e2-80-afam-p-1600.png 1600w, images/screenshot-202024-05-20-20at-209.32.40-e2-80-afam-p-2000.png 2000w, images/screenshot-202024-05-20-20at-209.32.40-e2-80-afam-p-2600.png 2600w, images/screenshot-202024-05-20-20at-209.32.40-e2-80-afam.png 2856w"/></div><div class="project-title-div"><h1 class="heading-4">Robotic Arm</h1><div class="heading-small"> →</div></div><div class="project-title-div margin-0"><h4 class="heading-5">Control systems engineering </h4></div></a></div></div></div><div class="work-collection_wrapper w-dyn-list"><div role="list" class="work-collection_list is-featured-project w-dyn-items"><div id="w-node-a9bd224e-46a2-bace-9f05-b3868f75066e-9bad21a0" role="listitem" class="work-collection-item w-dyn-item"><a href="https://github.com/DevVivan/robotic-arm" target="_blank" class="project-thumbnail-link w-inline-block"><div class="project-thumbnail-image-wrapper"><img src="images/screenshot-1.png" loading="lazy" width="1200" sizes="(max-width: 479px) 100vw, (max-width: 767px) 75vw, 81vw" alt="" srcset="images/screenshot-1-p-500.png 500w, images/screenshot-1-p-800.png 800w, images/screenshot-1-p-1080.png 1080w, images/screenshot-1-p-1600.png 1600w, images/screenshot-1-p-2000.png 2000w, images/screenshot-1.png 2396w" class="image-3"/></div><div class="project-title-div"><h1 class="heading-4">Calculator</h1><div class="heading-small"> →</div></div><div class="project-title-div margin-0"><h4 class="heading-5">Web Development</h4></div></a></div></div></div></div></div></section><section id="contact" class="section with-divider"><div class="page-padding"><div class="container-large"><div class="layout-12-column"><div id="w-node-_17457359-3127-e018-2d4c-43de2f27dfc7-9bad21a0" class="section-title"><h2 class="heading-8">Let&#x27;s get in touch</h2></div><div id="w-node-_17457359-3127-e018-2d4c-43de2f27dfcd-9bad21a0" class="content-wrapper"><p>If you want to chat about a project — email me at <a href="mailto:vivanpanda13@gmail.com?subject=%F0%9F%91%8B" class="text-style-link">vivanpanda13@gmail.com.</a></p><p>I would love to collaborate on a robotics project, design a webpage for you or simply chat about tech. </p><p>I’m currently based in Dubai, UAE - available for remote work and internships.</p></div></div></div></div></section><section class="section padding-0"></section></main><footer class="section-footer is-multi-colored"><h1 class="heading-9">Made by Vivan Panda</h1></footer></div><script src="js/jquery.js" type="text/javascript"  ></script><script src="js/webflow-script.js" type="text/javascript"></script><!-- Remove anchor link hashes from URL -->
+<script defer src="js/jquery-1.js" type="text/javascript"></script>
+<script defer>
+var Webflow = Webflow || [];
+Webflow.push(function() {
+  $('a').click(function() {
+    setTimeout(function() {
+      history.replaceState(null, null, ' ');
+    }, 0);
+  });
+});
+</script>
+
+<!-- Skip-to-main content script -->
+<script>
+  $(document).ready(function () {
+    $('#skip-link').on('click keydown', function(e) {
+      if (e.type === "keydown" && e.which !== 13) {
+          return;
+      }
+
+      e.preventDefault();
+      var target = $('#main');
+      target.attr('tabindex', '-1');
+      target.focus();
+    });
+  });
+</script></body></html>
